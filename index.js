@@ -1,9 +1,9 @@
 'use strict';
 
 const express = require('express');
-//const bodyParser = require('body-parser');
+//const bodyParser = require('body-parser'); Anjunws@api
 const NewsAPI = require('newsapi');
-const newsapi = new NewsAPI('YOUR-API-KEY-HERE');
+const newsapi = new NewsAPI('a9cc22e417a64901835997b6c84681cc');
 const server = express();
 
 server.use(express.urlencoded({
